@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+}
+#root {
+  width: 100%;
+}
+#app {
+  color: red;
+}
+
+.app-menu {
+  height: 50px;
+  width: 100%;
+  background-color: #eee;
+  top: 0px;
+  position: fixed;
+  display: flex;
+}
+.app-menu ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.app-menu li {
+  margin-right: 10px;
+  display: inline;
+  padding: 15px;
+  /*background-color: lightgrey;*/
+}
+.app-menu li a {
+  text-decoration: none;
+}
+.app-menu li:hover {
+  background-color: darkgray;
+}
+
+.app-content {
+  margin-top: 30px;
+  padding: 20px;
+  min-height: 594px;
+}
+
+.app-footer {
+  position: absolute;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  border-top: 3px solid #eee;
+  position: relative;
+  bottom: 0px;
+  padding: 20px;
+}
+footer ul li {
+  display: inline;
+  padding: 20px;
+}
+.logo {
+  max-width: 60px;
+}
+.logo img {
+  width: 50px;
+}

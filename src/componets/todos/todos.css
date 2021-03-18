@@ -1,0 +1,14 @@
+.todos-list {
+  color: black !important;
+}
+.todo-list-item {
+  border: 1px solid #eee;
+  padding: 15px;
+  margin: 3px;
+}
+
+.todo-list-item .status {
+  padding: 4px;
+  border-radius: 7px;
+  margin-top: 5px;
+}
